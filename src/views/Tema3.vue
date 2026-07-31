@@ -103,7 +103,7 @@
 
     .row.justify-content-center.mb-3
       .col-lg-8.mb-0
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3 bg-color-nuevo")
           div(titulo="Uso de lápiz")
             p.mb-3 Un registro diligenciado con lápiz, con información borrosa, manchada y poco clara. Con el tiempo, la información puede perderse o alterarse.
             p.mb-0 <b>Acción correcta:</b> utilizar siempre bolígrafo de tinta azul o negra. La tinta es permanente e indeleble, lo que garantiza que la información perdure en el tiempo y no pueda ser alterada.
@@ -306,7 +306,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-3 bg-color-nuevo")
           div(titulo="Registro de cloro residual")
             p.mb-0 En plantas con tanques de almacenamiento propios, se debe medir y registrar diariamente el nivel de cloro residual libre en el agua al inicio de la jornada y, preferiblemente, en varios puntos de la planta. El valor debe estar dentro del rango establecido por la norma (generalmente entre 0,3 y 2,0 ppm).
 
