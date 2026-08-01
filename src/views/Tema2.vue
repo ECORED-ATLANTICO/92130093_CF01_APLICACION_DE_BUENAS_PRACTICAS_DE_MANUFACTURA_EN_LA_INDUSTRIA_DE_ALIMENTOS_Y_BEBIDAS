@@ -7,11 +7,12 @@
         span 2
       h1 Marco normativo y legal en Colombia
     
-    .bg-full-width.mb-5
+
+    .bg-full-width.bg-fondo-3.px-5.py-4
       img(src="@/assets/curso/tema2/img01.png", alt="")
-      .row.align-items-center.justify-content-center
-        .col-lg-10(data-aos="")
-          p.banner-text Para planear adecuadamente el registro de la información y ejecutar las Buenas Prácticas de Manufactura (BPM), es indispensable conocer el marco normativo que regula su implementación. En Colombia, la legislación sanitaria establece los requisitos que deben cumplir los establecimientos dedicados a la producción, procesamiento, almacenamiento, distribución y comercialización de alimentos, con el propósito de proteger la salud de los consumidores y garantizar la inocuidad alimentaria.
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-11(data-aos="fade-right")
+        p.banner-text Para planear adecuadamente el registro de la información y ejecutar las Buenas Prácticas de Manufactura (BPM), es indispensable conocer el marco normativo que regula su implementación. En Colombia, la legislación sanitaria establece los requisitos que deben cumplir los establecimientos dedicados a la producción, procesamiento, almacenamiento, distribución y comercialización de alimentos, con el propósito de proteger la salud de los consumidores y garantizar la inocuidad alimentaria.
 
   
     .row.mb-3.justify-content-center.align-items-center

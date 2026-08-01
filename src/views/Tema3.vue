@@ -8,11 +8,11 @@
       h1 Planeación del registro de información en programas de saneamiento
 
 
-    .bg-full-width.mb-5
+    .bg-full-width.bg-fondo-3.px-5.py-4
       img(src="@/assets/curso/tema3/img01.png", alt="")
-      .row.align-items-center.justify-content-center
-        .col-lg-10(data-aos="")
-          p.banner-text "Lo que no se registra, no se hace". Esta frase es un lema fundamental en la industria alimentaria. La planeación del registro de información es tan importante como la ejecución misma de las tareas. Los registros son la evidencia objetiva del cumplimiento y la herramienta principal para verificar, rastrear y mejorar los procesos. 
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-11(data-aos="fade-right")
+        p.banner-text "Lo que no se registra, no se hace". Esta frase es un lema fundamental en la industria alimentaria. La planeación del registro de información es tan importante como la ejecución misma de las tareas. Los registros son la evidencia objetiva del cumplimiento y la herramienta principal para verificar, rastrear y mejorar los procesos. 
 
     separador
 

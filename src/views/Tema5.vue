@@ -62,7 +62,8 @@
       .col-lg-auto.d-none.d-lg-flex
         img(src="@/assets/curso/tema5/img05.svg").mx-auto
       .col-lg
-        p.mb-2 Una no conformidad es el incumplimiento de un requisito especificado. (“¿Qué es la No Conformidad? Normas ISO - LinkedIn”) Puede ser un producto que no cumple con su peso, una temperatura de refrigeración fuera de rango, un formato de registro mal diligenciado, o un operario que no usa su gorro.
+        p.mb-2 Una no conformidad es el incumplimiento de un requisito especificado. Puede ser un producto que no cumple con su peso, una temperatura de refrigeración fuera de rango, un formato de registro mal diligenciado, o un operario que no usa su gorro.
+
         p.mb-0 Cuando se identifica una no conformidad, se debe:
 
 

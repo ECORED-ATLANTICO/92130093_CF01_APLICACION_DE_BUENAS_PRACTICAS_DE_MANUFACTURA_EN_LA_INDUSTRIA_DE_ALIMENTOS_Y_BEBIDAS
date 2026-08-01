@@ -8,11 +8,12 @@
       h1 Generalidades de las Buenas Prácticas de Manufactura (BPM)
 
     
-    .bg-full-width.bg-fondo-3.mb-5
+
+    .bg-full-width.bg-fondo-3.px-5.py-4
       img(src="@/assets/curso/tema1/img01.png", alt="")
-      .row.align-items-center.justify-content-center
-        .col-lg-10(data-aos="")
-          p.banner-text Para comprender los fundamentos de la calidad y la inocuidad alimentaria, es necesario conocer qué son las Buenas Prácticas de Manufactura (BPM) y por qué representan la base fundamental para cualquier empresa que produzca alimentos seguros. Las BPM constituyen el conjunto de principios y procedimientos que se aplican en el procesamiento de alimentos para garantizar que estos se elaboren en condiciones sanitarias adecuadas, disminuyendo así los riesgos inherentes a la producción.
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-11(data-aos="fade-right")
+        p.banner-text Para comprender los fundamentos de la calidad y la inocuidad alimentaria, es necesario conocer qué son las Buenas Prácticas de Manufactura (BPM) y por qué representan la base fundamental para cualquier empresa que produzca alimentos seguros. Las BPM constituyen el conjunto de principios y procedimientos que se aplican en el procesamiento de alimentos para garantizar que estos se elaboren en condiciones sanitarias adecuadas, disminuyendo así los riesgos inherentes a la producción.
 
 
     .row.mb-4.justify-content-center.align-items-center
@@ -99,7 +100,8 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema1/img10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La inocuidad de los alimentos es la garantía de que un alimento no causará daño al consumidor cuando se prepare o ingiera de acuerdo con el uso al que se destina. (“Inocuidad alimentaria bajo las normas del Codex Alimentarius - The Food ...”) Es, por tanto, un derecho fundamental de los consumidores y una responsabilidad ineludible de todos los actores de la cadena alimentaria, desde el productor primario hasta el consumidor final.
+        p.mb-0 La inocuidad de los alimentos es la garantía de que un alimento no causará daño al consumidor cuando se prepare o ingiera de acuerdo con el uso al que se destina. Es, por tanto, un derecho fundamental de los consumidores y una responsabilidad ineludible de todos los actores de la cadena alimentaria, desde el productor primario hasta el consumidor final.
+
 
 
     p.mb-4 La falta de inocuidad tiene graves consecuencias:

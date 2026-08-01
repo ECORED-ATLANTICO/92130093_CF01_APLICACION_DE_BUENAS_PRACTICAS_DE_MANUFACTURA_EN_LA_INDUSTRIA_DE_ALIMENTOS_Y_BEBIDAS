@@ -8,11 +8,11 @@
       h1 Ejecución de las Buenas Prácticas de Manufactura
 
 
-    .bg-full-width.mb-5
+    .bg-full-width.bg-fondo-3.px-5.py-4
       img(src="@/assets/curso/tema4/img01.png", alt="")
-      .row.align-items-center.justify-content-center
-        .col-lg-10(data-aos="")
-          p.banner-text Una vez que se ha planeado qué y cómo se va a registrar, el siguiente paso, y el más importante, es la ejecución. La teoría y los formatos no sirven de nada si en el día a día no se aplican las BPM. Este capítulo se enfoca en la práctica: en las acciones concretas que debe realizar el personal en la planta de producción.
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-11(data-aos="fade-right")
+        p.banner-text Una vez que se ha planeado qué y cómo se va a registrar, el siguiente paso, y el más importante, es la ejecución. La teoría y los formatos no sirven de nada si en el día a día no se aplican las BPM. Este capítulo se enfoca en la práctica: en las acciones concretas que debe realizar el personal en la planta de producción.
 
     separador
     
