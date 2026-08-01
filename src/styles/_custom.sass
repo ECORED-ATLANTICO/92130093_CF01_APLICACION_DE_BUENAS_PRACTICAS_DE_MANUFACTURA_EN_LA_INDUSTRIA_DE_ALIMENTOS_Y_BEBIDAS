@@ -119,10 +119,17 @@ figcaption
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: #FCE9BE
+    &.bg-color-2
+      background-color: #DEF1CB
     // text-align: center
 
     &.pd-1-3
       padding: 1rem !important
+    &.pd-1-2
+      padding: 1rem !important
+      @media screen and ( max-width: $bp-max-sm )
+        &.pd-1-2
+          padding: 1.2rem !important
 
   @media (min-width:1200px) and (max-width:1400px)
     .crd_hover_txt--body

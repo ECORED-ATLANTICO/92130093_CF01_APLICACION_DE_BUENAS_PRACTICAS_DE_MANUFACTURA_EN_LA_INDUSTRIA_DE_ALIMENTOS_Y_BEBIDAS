@@ -24,46 +24,51 @@
 
     
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-6.col-md-12.mb-4.mb-lg-0.order-1.order-lg-2
+        .col-lg-6.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
           figure
             img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
-        .col-lg-6.order-2.order-lg-1
+        .col-lg-6.order-2.order-lg-2
           p.mb-3 Un Programa de Saneamiento es un documento formal, planificado y sistemático que reúne todas las actividades y procedimientos necesarios para mantener las condiciones higiénicas y sanitarias en un establecimiento de alimentos. Su objetivo principal es prevenir la contaminación de los alimentos, protegiendo así la salud del consumidor.
           p.mb-0 Todo programa de saneamiento debe estar documentado y debe incluir, al menos, cuatro subprogramas o componentes esenciales:
       
-      .row.mb-4.justify-content-center
-        .col-md-6.col-xl-3.col-lg-6.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.bg-color-2(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.h-100
-              .tarjeta-slide__contenido.p-3.p-xl-4
-                h4.text-center Programa de limpieza y desinfección
-                p.mb-0 Establece los procedimientos estandarizados de limpieza y desinfección de instalaciones, equipos y utensilios. Incluye fichas técnicas, concentraciones, frecuencias y responsables de cada actividad. Su eficacia se verifica mediante inspección visual, pruebas de ATP o análisis microbiológicos.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/tema3/img03.png')})`}")
+    .row.justify-content-center.mb-5
+      .col-xl-3.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img03.png", alt="Programa de limpieza y desinfección")
+          .crd_hover_txt--body.bg-color-2.pd-1-2
+            h4.mb-3.text-center Programa de limpieza y desinfección
+            p.mb-0 Establece los procedimientos estandarizados de limpieza y desinfección de instalaciones, equipos y utensilios. Incluye fichas técnicas, concentraciones, frecuencias y responsables de cada actividad. Su eficacia se verifica mediante inspección visual, pruebas de ATP o análisis microbiológicos.
 
-        .col-md-6.col-xl-3.col-lg-6.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.bg-color-2
-            .tarjeta-slide__contenedor.h-100
-              .tarjeta-slide__contenido.p-3.p-xl-4
-                h4.text-center Programa de control de plagas y vectores
-                p.mb-0 Comprende las actividades de manejo integrado de plagas (MIP), incluyendo monitoreo, medidas preventivas, controles físicos y químicos realizados por empresas autorizadas y el registro de las intervenciones.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/tema3/img04.png')})`}")
+      .col-xl-3.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img04.png", alt="Programa de control de plagas y vectores")
+          .crd_hover_txt--body.bg-color-2.pd-1-2
+            h4.mb-3.text-center Programa de control de plagas y vectores
+            p.mb-0 Comprende las actividades de manejo integrado de plagas (MIP), incluyendo monitoreo, medidas preventivas, controles físicos y químicos realizados por empresas autorizadas y el registro de las intervenciones.
 
-        .col-md-6.col-xl-3.col-lg-6.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.bg-color-2
-            .tarjeta-slide__contenedor.h-100
-              .tarjeta-slide__contenido.p-3.p-xl-4
-                h4.text-center Programa de abastecimiento de agua potable
-                p.mb-0 Garantiza que el agua utilizada durante la producción cumpla con los requisitos de potabilidad mediante controles periódicos, mantenimiento de tanques y análisis fisicoquímicos y microbiológicos.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/tema3/img05.png')})`}")
+      .col-xl-3.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img05.png", alt="Programa de abastecimiento de agua potable")
+          .crd_hover_txt--body.bg-color-2.pd-1-2
+            h4.mb-3.text-center Programa de abastecimiento de agua potable
+            p.mb-0 Garantiza que el agua utilizada durante la producción cumpla con los requisitos de potabilidad mediante controles periódicos, mantenimiento de tanques y análisis fisicoquímicos y microbiológicos.
 
-        .col-md-6.col-xl-3.col-lg-6.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.bg-color-2
-            .tarjeta-slide__contenedor.h-100
-              .tarjeta-slide__contenido.p-3.p-xl-4
-                h4.text-center Programa de manejo de residuos sólidos y líquidos
-                p.mb-0 Establece los procedimientos para la separación en la fuente, el almacenamiento temporal, la recolección y la disposición final de los residuos generados durante el proceso productivo.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require_src('@/assets/curso/tema3/img06.png')})`}")
+      .col-xl-3.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/img06.png", alt="Programa de manejo de residuos sólidos y líquidos")
+          .crd_hover_txt--body.bg-color-2.pd-1-2
+            h4.mb-3.text-center Programa de manejo de residuos sólidos y líquidos
+            p.mb-0 Establece los procedimientos para la separación en la fuente, el almacenamiento temporal, la recolección y la disposición final de los residuos generados durante el proceso productivo.
+
+
 
       separador
     
@@ -78,16 +83,7 @@
           p.mb-0 Para planear el registro, es necesario diseñar los formatos adecuados. Un formato es el documento prediseñado que será diligenciado. Un registro es el formato ya diligenciado, que contiene datos y evidencia de una actividad realizada.
 
 
-
-
-    .container
-      .titulo-con-imagen.mb-5(data-aos="fade-right")
-        .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
-          h3.titulo-con-imagen__texto Características de un buen formato:
-
-
-
+    p.mb-5 Características de un buen formato:
   
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-6.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
