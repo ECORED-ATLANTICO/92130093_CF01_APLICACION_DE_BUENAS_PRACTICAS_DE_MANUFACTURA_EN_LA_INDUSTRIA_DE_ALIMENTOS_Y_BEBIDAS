@@ -201,7 +201,7 @@ export default {
           id: 6,
           texto:
             'Un registro es un formato diligenciado que sirve como evidencia de una actividad. ¿Cuál es la forma correcta de corregir un error en un registro?',
-          imagen: '@/assets/actividad/imagen6.png',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -235,7 +235,7 @@ export default {
           id: 7,
           texto:
             'El Programa de Saneamiento en una empresa de alimentos debe incluir, como mínimo, los siguientes subprogramas:',
-          imagen: '@/assets/actividad/imagen7.png',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -269,7 +269,7 @@ export default {
           id: 8,
           texto:
             'Un manipulador de alimentos, ¿en qué momentos debe realizar el lavado de manos de manera obligatoria?',
-          imagen: '@/assets/actividad/imagen8.png',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -305,7 +305,7 @@ export default {
           id: 9,
           texto:
             '¿Cuál es la forma correcta de aplicar el método de rotación de inventarios PEPS (Primero en Entrar, Primero en Salir)?',
-          imagen: '@/assets/actividad/imagen9.png',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -340,7 +340,7 @@ export default {
           id: 10,
           texto:
             'Si durante una inspección se detecta que un lote de producto tiene una temperatura de cocción por debajo de la establecida, ¿qué tipo de acción debe tomar la empresa?',
-          imagen: '@/assets/actividad/imagen10.png',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -545,7 +545,7 @@ export default {
           id: 16,
           texto:
             'Durante la limpieza y desinfección, ¿cuál es el orden correcto de las etapas?',
-          imagen: '@/assets/actividad/imagen6.png',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -578,7 +578,7 @@ export default {
           id: 17,
           texto:
             '¿Cuál es la concentración típica de cloro (hipoclorito de sodio) recomendada para la desinfección de superficies en contacto con alimentos?',
-          imagen: '@/assets/actividad/imagen7.png',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -611,7 +611,7 @@ export default {
           id: 18,
           texto:
             'Los productos secos como harinas y azúcares deben almacenarse sobre estibas. ¿A qué distancia mínima del piso y la pared deben estar?',
-          imagen: '@/assets/actividad/imagen8.png',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -644,7 +644,7 @@ export default {
           id: 19,
           texto:
             '¿En qué parte del alimento se debe realizar la medición de la temperatura interna durante la cocción de una pieza de gran tamaño (por ejemplo, un pollo entero)?',
-          imagen: '@/assets/actividad/imagen9.png',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -677,7 +677,7 @@ export default {
           id: 20,
           texto:
             '¿Cuál de las siguientes afirmaciones describe mejor el concepto de mejora continua?',
-          imagen: '@/assets/actividad/imagen10.png',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {

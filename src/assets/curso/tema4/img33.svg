@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <filter id="Elipse_13737" x="0" y="0" width="102" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1239173" data-name="Grupo 1239173" transform="translate(-280 -7328.289)">
+    <g id="Grupo_1238224" data-name="Grupo 1238224" transform="translate(289 7334.289)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_13737)">
+        <circle id="Elipse_13737-2" data-name="Elipse 13737" cx="42" cy="42" r="42" transform="translate(9 6)" fill="#d6e1f7"/>
+      </g>
+    </g>
+    <g id="Filled_outline" data-name="Filled outline" transform="translate(299.348 7345)">
+      <rect id="Rectángulo_747088" data-name="Rectángulo 747088" width="58" height="42" transform="translate(3 11)" fill="#ebb562"/>
+      <rect id="Rectángulo_747089" data-name="Rectángulo 747089" width="22" height="42" transform="translate(21 11)" fill="#cdeef6"/>
+      <circle id="Elipse_13968" data-name="Elipse 13968" cx="2" cy="2" r="2" transform="translate(35 15)" fill="#7fcac9"/>
+      <rect id="Rectángulo_747090" data-name="Rectángulo 747090" width="15.556" height="2" transform="translate(20.293 52.293) rotate(-45)" fill="#7fcac9"/>
+      <rect id="Rectángulo_747091" data-name="Rectángulo 747091" width="7.071" height="2" transform="translate(26.292 52.294) rotate(-45)" fill="#7fcac9"/>
+      <rect id="Rectángulo_747092" data-name="Rectángulo 747092" width="14.142" height="2" transform="translate(32.293 32.293) rotate(-45)" fill="#7fcac9"/>
+      <rect id="Rectángulo_747093" data-name="Rectángulo 747093" width="4.243" height="2" transform="translate(25.294 23.293) rotate(-45)" fill="#7fcac9"/>
+      <rect id="Rectángulo_747094" data-name="Rectángulo 747094" width="10" height="34" transform="translate(7 15)" fill="#d3843d"/>
+      <rect id="Rectángulo_747095" data-name="Rectángulo 747095" width="10" height="34" transform="translate(47 15)" fill="#d3843d"/>
+      <rect id="Rectángulo_747096" data-name="Rectángulo 747096" width="2" height="2" transform="translate(11 44)" fill="#8b3123"/>
+      <rect id="Rectángulo_747097" data-name="Rectángulo 747097" width="2" height="2" transform="translate(51 44)" fill="#8b3123"/>
+      <path id="Trazado_1335117" data-name="Trazado 1335117" d="M6,14V50H18V14ZM16,48H8V16h8Z"/>
+      <path id="Trazado_1335118" data-name="Trazado 1335118" d="M58,50V14H46V50ZM48,16h8V48H48Z"/>
+      <path id="Trazado_1335119" data-name="Trazado 1335119" d="M2,10V54H62V10ZM4,52V12H20V52Zm25.414,0,3.293-3.293-1.414-1.414L26.586,52H23.414l9.293-9.293-1.414-1.414L22,50.586V12H42V22.586l-9.707,9.707,1.414,1.414L42,25.414V52ZM60,12V52H44V12Z"/>
+      <path id="Trazado_1335120" data-name="Trazado 1335120" d="M37,20a3,3,0,1,0-3-3A3,3,0,0,0,37,20Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,37,16Z"/>
+      <rect id="Rectángulo_747098" data-name="Rectángulo 747098" width="4.243" height="2" transform="translate(25.294 23.293) rotate(-45)"/>
+      <rect id="Rectángulo_747099" data-name="Rectángulo 747099" width="2" height="2" transform="translate(11 44)"/>
+      <rect id="Rectángulo_747100" data-name="Rectángulo 747100" width="2" height="2" transform="translate(51 44)"/>
+    </g>
+  </g>
+</svg>
