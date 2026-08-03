@@ -146,7 +146,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.mb-4.mb-lg-0
         .bg-color-2.p-4.h-100.br-15
-          .row.align-items-center.mb-0
+          .row.align-items-center.mb-0.h-100
             .col-12.col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/img15.svg", style="max-width: 150px;").mx-auto
             .col-lg
@@ -155,7 +155,7 @@
 
       .col-lg-6.col-md-12.mb-4.mb-lg-0
         .bg-color-2.p-4.h-100.br-15
-          .row.align-items-center.mb-0
+          .row.align-items-center.mb-0.h-100
             .col-12.col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/img16.svg", style="max-width: 150px;").mx-auto
             .col-lg

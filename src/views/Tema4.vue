@@ -85,7 +85,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img09.svg' alt='Al ingresar al área de producción')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Al ingresar al área de producción
               p.mb-0 Es el primer filtro sanitario. Antes de tocar cualquier superficie, equipo o alimento, debe realizarse el lavado de manos.
@@ -94,7 +94,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img10.svg' alt='Después de ir al baño')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Después de ir al baño
               p.mb-0 Este es un momento obligatorio e innegociable. Es la principal vía de contaminación fecal-oral.
@@ -103,7 +103,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img11.svg' alt='Después de manipular basura')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Después de manipular basura
               p.mb-0 Los residuos son focos de contaminación. Tocarlos requiere un lavado inmediato al regresar a las áreas limpias.
@@ -112,7 +112,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img12.svg' alt='Después de estornudar o toser')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Después de estornudar o toser
               p.mb-0 Aunque sea en el codo, la mucosidad puede transferirse. El lavado de manos es necesario para evitar cualquier riesgo de contaminación.
@@ -121,13 +121,13 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img13.svg' alt='Después de manipular alimentos crudos')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Después de manipular alimentos crudos
               p.mb-0 Antes de tocar alimentos cocidos. Para evitar la contaminación cruzada, este lavado es crítico e ineludible.
 
       .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-0
-        .tarjeta-avatar-b.h-100
+        .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img14.svg' alt='Cada vez que se cambie de actividad')
           .tarjeta.bg-color-3.h-100
@@ -412,7 +412,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img31.svg' alt='Pisos, paredes y techos')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Pisos, paredes y techos
               p.mb-0 Deben estar construidos con materiales lisos, impermeables, no porosos y de fácil limpieza. Se deben revisar periódicamente para detectar y reportar grietas, desprendimientos de pintura o acumulación de humedad.
@@ -421,7 +421,7 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img32.svg' alt='Iluminación y ventilación')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Iluminación y ventilación
               p.mb-0 Las áreas deben tener buena iluminación para facilitar la limpieza y la detección de suciedad. La ventilación debe ser adecuada para evitar la condensación, el calor excesivo y la acumulación de olores.
@@ -430,13 +430,13 @@
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img33.svg' alt='Puertas y ventanas')
-          .tarjeta.bg-color-3.h-100
+          .tarjeta.bg-color-3
             .p-4
               h4 Puertas y ventanas
               p.mb-0 Deben tener superficies lisas y de fácil limpieza. Las ventanas que se abren al exterior deben tener malla antipájaros e insectos.
 
       .col-lg-6.col-xl-5.mb-4.mb-lg-4.mb-xl-0
-        .tarjeta-avatar-b.h-100
+        .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema4/img34.svg' alt='Drenajes y rejillas')
           .tarjeta.bg-color-3.h-100
@@ -495,7 +495,7 @@
                 i.lista-ul__vineta(style="color: #B37900")
                 | Productos congelados (carnes, verduras congeladas): se almacenan en congeladores a -18 °C o menos.
 
-          div(titulo="Rotación de inventarios (PEPS)")
+          div(titulo="Rotación de inventarios (PEPS - Primero en Entrar, Primero en Salir)")
             p.mb-0 El método PEPS (Primero en Entrar, Primero en Salir) es fundamental para evitar el vencimiento de productos. Consiste en colocar los productos nuevos (con fecha de vencimiento más lejana) detrás de los más antiguos (con fecha de vencimiento más cercana), para que estos últimos sean los primeros en usarse.
 
       .col-lg-4.col-md-8

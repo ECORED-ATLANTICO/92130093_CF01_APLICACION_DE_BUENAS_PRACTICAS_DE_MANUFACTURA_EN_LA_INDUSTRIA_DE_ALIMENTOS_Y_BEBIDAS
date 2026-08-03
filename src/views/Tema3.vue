@@ -217,7 +217,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/img15.png", alt="Registro diario de limpieza")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.pd-1-2
             h4.mb-3.text-center Registro diario de limpieza y desinfección
             p.mb-0 Un formato en el que, por cada área o equipo, el operario anote la fecha, la hora, la actividad realizada (ej. "limpieza de mesón de acero inoxidable"), los productos utilizados (nombre y concentración) y su firma como constancia.
 
@@ -367,7 +367,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.mb-4.mb-lg-0
         .bg-color-2.p-4.h-100.br-15
-          .row.align-items-center.mb-0
+          .row.align-items-center.mb-0.h-100
             .col-12.col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/img21.svg", style="max-width: 150px;").mx-auto
             .col-lg
@@ -376,7 +376,7 @@
 
       .col-lg-6.col-md-12.mb-4.mb-lg-0
         .bg-color-2.p-4.h-100.br-15
-          .row.align-items-center.mb-0
+          .row.align-items-center.mb-0.h-100
             .col-12.col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/img22.svg", style="max-width: 150px;").mx-auto
             .col-lg
